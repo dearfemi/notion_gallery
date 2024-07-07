@@ -30,7 +30,6 @@
       background-color: transparent !important;
     }
 
-
     .carousel-inner>.item>a>img,
     .carousel-inner>.item>img,
     .img-responsive,
@@ -40,24 +39,27 @@
       max-width: 100%;
       height: auto;
     }
+
+    /* Specific rule for smaller thumbnail images */
+    .tz-gallery .thumbnail img {
+      max-width: 100px; /* Set the desired maximum width */
+      height: auto; /* Maintain the aspect ratio */
+    }
   </style>
 
 </head>
 
 <body>
 
-
   <main>
 
-
     <section id="gallery">
-      <div class=" gallery-container container">
+      <div class="gallery-container container">
         <div class="tz-gallery">
-
           <div class="row">
 
             <!---------------------------------------------->
-            <div data-aos="flip-up" class="col-sm-6 col-md-4">
+            <div data-aos="flip-up" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="1.png">
                   <img src="1.png">
@@ -66,81 +68,76 @@
             </div>
 
             <!---------------------------------------------->
-
-            <div data-aos="flip-up" data-aos-delay="20" class="col-sm-6 col-md-4">
+            <div data-aos="flip-up" data-aos-delay="20" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="2.png">
                   <img src="2.png">
                 </a>
               </div>
             </div>
-            <!---------------------------------------------->
 
-            <div data-aos="flip-up" data-aos-delay="40" class="col-sm-6 col-md-4">
+            <!---------------------------------------------->
+            <div data-aos="flip-up" data-aos-delay="40" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="3.png">
                   <img src="3.png">
                 </a>
-
               </div>
             </div>
-            <!---------------------------------------------->
 
-            <div data-aos="flip-up" data-aos-delay="60" class="col-sm-6 col-md-4">
+            <!---------------------------------------------->
+            <div data-aos="flip-up" data-aos-delay="60" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="4.png">
                   <img src="4.png">
                 </a>
               </div>
             </div>
-            <!---------------------------------------------->
 
-            <div data-aos="flip-up" data-aos-delay="80" class="col-sm-6 col-md-4">
+            <!---------------------------------------------->
+            <div data-aos="flip-up" data-aos-delay="80" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="5.png">
                   <img src="5.png">
                 </a>
               </div>
             </div>
-            <!---------------------------------------------->
 
-            <div data-aos="flip-up" data-aos-delay="100" class="col-sm-6 col-md-4">
+            <!---------------------------------------------->
+            <div data-aos="flip-up" data-aos-delay="100" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="6.png">
                   <img src="6.png">
                 </a>
               </div>
             </div>
-            <!---------------------------------------------->
 
-            <div data-aos="flip-up" data-aos-delay="120" class="col-sm-6 col-md-4">
+            <!---------------------------------------------->
+            <div data-aos="flip-up" data-aos-delay="120" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="7.png">
                   <img src="7.png">
                 </a>
               </div>
             </div>
-            <!---------------------------------------------->
 
-            <div data-aos="flip-up" data-aos-delay="140" class="col-sm-6 col-md-4">
+            <!---------------------------------------------->
+            <div data-aos="flip-up" data-aos-delay="140" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="8.png">
                   <img src="8.png">
                 </a>
               </div>
             </div>
-            <!---------------------------------------------->
 
-            <div data-aos="flip-up" data-aos-delay="160" class="col-sm-6 col-md-4">
+            <!---------------------------------------------->
+            <div data-aos="flip-up" data-aos-delay="160" class="col-sm-6 col-md-3">
               <div class="thumbnail">
                 <a class="lightbox" href="9.png">
                   <img src="9.png">
                 </a>
               </div>
             </div>
-
-
-
 
           </div>
         </div>
@@ -153,8 +150,6 @@
 
     </section>
 
-
   </main>
-
 
 </html>
